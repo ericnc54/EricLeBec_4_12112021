@@ -56,6 +56,9 @@ a:hover {
     padding: 20px 50px;
 }
 
+.footer {
+    margin-top: 20vw;
+}
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -195,9 +198,9 @@ a:hover {
 }
 
 .d-bloc .panel,
-.l-bloc {
+/* .l-bloc {
     color: rgba(0, 0, 0, .5);
-}
+} */
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -362,6 +365,10 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.bloc__form {
+    margin-bottom: -5.5vw;
 }
 
 @media (min-width: 768px) {
@@ -649,12 +656,15 @@ h3,
 h4,
 h5,
 h6,
-p,
+/* p, */
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757;
+    color: black;
+}
+a:hover {
+    color: white;
 }
 
 .container {
@@ -680,7 +690,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
+    color: black;
 }
 
 .tight-width-whitespace {
@@ -703,12 +714,15 @@ p {
 }
 
 .social {
+    display: flex;
+    justify-content: space-around;
     max-width: 400px;
     margin: auto;
 }
 
 h2 {
-    font-size: 22px;
+    color: black;
+    font-size: 2em;
     line-height: 1.4em;
 }
 
@@ -743,6 +757,7 @@ h4 {
 }
 
 .portfolio-thumb {
+    width: 100%;
     margin-bottom: 24px;
 }
 
@@ -851,13 +866,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -875,10 +890,10 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
+    /* .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
-    }
+    } */
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -887,8 +902,8 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        /* padding-left: constant(safe-area-inset-left);
+        padding-right: constant(safe-area-inset-right); */
     }
 }
 
