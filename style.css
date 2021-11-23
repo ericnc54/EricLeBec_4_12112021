@@ -372,6 +372,10 @@ a:hover {
     margin-bottom: -5.5vw;
 }
 
+.padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -776,7 +780,7 @@ h4 {
 
 .black-background {
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 40px 40px 40px 40px;
+    /* padding: 40px 40px 40px 40px; */
 }
 
 .bold-link {
@@ -1054,6 +1058,12 @@ h4 {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.6em;
     }
 }
 
