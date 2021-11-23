@@ -57,7 +57,7 @@ a:hover {
 }
 
 .footer {
-    margin-top: 20vw;
+    margin-top: 9vw;
 }
 .bg-center,
 .bg-l-edge,
@@ -368,6 +368,7 @@ a:hover {
 }
 
 .bloc__form {
+    margin-top: 3vw;
     margin-bottom: -5.5vw;
 }
 
@@ -378,6 +379,9 @@ a:hover {
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
+    }
+    .coord {
+        padding-left: 10vw;
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
