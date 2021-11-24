@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: 
+Sitemap: https://ericnc54.github.io/EricLeBec_4_12112021/sitemap.xml
