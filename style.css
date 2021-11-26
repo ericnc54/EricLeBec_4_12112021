@@ -12,10 +12,22 @@ button {
     transition: all .3s ease-in-out;
     outline: none;
 }
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+}
 
 a:hover {
     text-decoration: none;
     cursor: pointer;
+    color: white;
+}
+a:active {
+    color: white;
+    text-decoration: none;
 }
 
 #page-loading-blocs-notifaction {
@@ -672,9 +684,9 @@ a {
     font-weight: 400;
     color: black;
 }
-a:hover {
+/* a:hover {
     color: white;
-}
+} */
 
 .container {
     max-width: 1000px;
