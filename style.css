@@ -23,7 +23,7 @@ a:visited {
 a:hover {
     text-decoration: none;
     cursor: pointer;
-    color: white;
+    /* color: white; */
 }
 a:active {
     color: white;
